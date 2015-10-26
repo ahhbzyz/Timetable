@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+            android:id="@+id/logined"
+            android:menuCategory="alternative">
+        <!--
+                                          刷新按钮
+         <item android:id="@+id/item0" android:title="@string/reload" android:orderInCategory="1" android:icon="@android:drawable/ic_menu_rotate"></item>
+         -->
+        <item
+                android:id="@+id/item1"
+                android:title="选择班级"
+                android:orderInCategory="1"
+                android:icon="@android:drawable/ic_menu_edit"></item>
+        <item
+                android:id="@+id/item3"
+                android:title="关于"
+                android:orderInCategory="3"
+                android:icon="@android:drawable/ic_menu_info_details"></item>
+        <item
+                android:id="@+id/item4"
+                android:title="退出"
+                android:orderInCategory="4"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+    </group>
+</menu>  

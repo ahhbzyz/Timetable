@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/mainlayout"
+              android:background="#000000">
+
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="6">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView"
+                android:src="@drawable/xjtlu_head"
+                android:scaleType="fitXY"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="6"
+                android:background="#34495e"
+                android:orientation="horizontal"
+                android:id="@+id/relativeLayout">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="教师信息"
+                    android:id="@+id/tvWeek"
+                    android:layout_centerInParent="true"
+                    android:textSize="40sp"
+                    android:typeface="monospace"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/relativeLayout"
+                android:layout_alignParentRight="true"
+                android:layout_weight="1"
+                android:background="#ecf0f1">
+
+            <WebView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/webView"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

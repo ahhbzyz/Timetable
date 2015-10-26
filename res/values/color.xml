@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="darkgray">#808080</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="gray">#ecf0f1</drawable>
+    <drawable name="graydark">#d1d3d6</drawable>
+    <drawable name="pink">#e2e2e2</drawable>
+    <drawable name="darkpink">#c1c1c1</drawable>
+
+    <color name="mathScience">#C6004B</color>
+    <color name="computer">#336995</color>
+    <color name="biology">#572B7A</color>
+    <color name="eee">#CE8A5A</color>
+    <color name="urban">#C76690</color>
+    <color name="architecture">#0097AE</color>
+    <color name="business">#006F3C</color>
+    <color name="language">#FFD14D</color>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.xjtlu.timetable"
+          android:versionCode="1"
+          android:versionName="Beta 1.0">
+
+    <uses-sdk android:minSdkVersion="2"/>
+
+    <application
+            android:icon="@drawable/icon"
+            android:label="@string/app_name">
+
+
+        <activity
+                android:name="com.xjtlu.timetable.logo"
+                android:theme="@android:style/Theme.NoTitleBar"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.xjtlu.timetable.About"
+                android:label="@string/about"
+                android:theme="@android:style/Theme.Dialog"
+                />
+
+        <activity
+                android:name="com.xjtlu.timetable.Main"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.xjtlu.timetable.webView"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.xjtlu.timetable.ModuleInfo"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.xjtlu.timetable.login"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.xjtlu.timetable.programme"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.xjtlu.timetable.classes"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name="com.xjtlu.timetable.extraInfo"
+                android:launchMode="singleTask"
+                android:screenOrientation="portrait"/>
+    </application>
+
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+
+    <uses-sdk
+            android:minSdkVersion="4"
+            tools:ignore="MultipleUsesSdk"/>
+
+    <supports-screens
+            android:largeScreens="true"
+            android:xlargeScreens="true"
+            android:normalScreens="true"
+            android:anyDensity="true">
+
+    </supports-screens>
+
+</manifest>

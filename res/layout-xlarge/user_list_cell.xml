@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/widget_list_item_layout"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:descendantFocusability="blocksDescendants"
+              android:background="@drawable/item"
+              android:baselineAligned="false">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="MAN201"
+                android:id="@+id/tvModule"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="#000000"
+                android:typeface="monospace"
+                android:textSize="50sp"
+                android:layout_marginLeft="20dp"
+                android:singleLine="true"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="SA136"
+                android:id="@+id/tvRoom"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="#6c6c6c"
+                android:typeface="monospace"
+                android:textSize="45sp"
+                android:layout_marginLeft="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="09:00 - 11:00"
+                android:id="@+id/tvTime"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="#6c6c6c"
+                android:typeface="monospace"
+                android:layout_marginLeft="20dp"
+                android:textSize="45sp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="(备注)"
+                android:id="@+id/textInfo"
+                android:textColor="#8c8c8c"
+                android:layout_alignParentRight="false"
+                android:layout_centerInParent="true"
+                android:textSize="45sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

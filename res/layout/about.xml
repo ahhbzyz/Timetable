@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+        <TextView
+                android:text="Timetable for XJTLU"
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#202020"
+                android:textIsSelectable="false"></TextView>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="制作名单"
+                android:id="@+id/textView"
+                android:textColor="#010101"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"/>
+
+        <View android:layout_height="2dp" android:background="#9b9b9b" android:layout_width="fill_parent"
+              android:clickable="false"></View>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Dean Zhang"
+                android:id="@+id/textView3"
+                android:textColor="#010101"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="17sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="创意. 编程. 设计"
+                android:id="@+id/textView4"
+                android:textColor="#010101"
+                android:layout_marginLeft="5dp"
+                android:textSize="12sp"
+                android:layout_marginBottom="6dp"/>
+
+        <View android:layout_height="1dp" android:background="#9b9b9b" android:layout_width="fill_parent"
+              android:clickable="false"></View>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sun Yan"
+                android:id="@+id/textView3"
+                android:textColor="#010101"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="17sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="设计.数据库"
+                android:id="@+id/textView4"
+                android:textColor="#010101"
+                android:layout_marginLeft="5dp"
+                android:textSize="12sp"
+                android:layout_marginBottom="6dp"/>
+
+        <View android:layout_height="1dp" android:background="#9b9b9b" android:layout_width="fill_parent"
+              android:clickable="false"></View>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="特别感谢"
+                android:id="@+id/textView3"
+                android:textColor="#010101"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="17sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="SP，TQ"
+                android:id="@+id/textView4"
+                android:textColor="#010101"
+                android:layout_marginLeft="5dp"
+                android:textSize="12sp"
+                android:layout_marginBottom="6dp"/>
+
+        <View android:layout_height="2dp" android:background="#9b9b9b" android:layout_width="fill_parent"
+                ></View>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="版本"
+                android:id="@+id/textView5"
+                android:textColor="#010101"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="17sp"/>
+
+        <TextView
+                android:text="TextView"
+                android:id="@+id/textView2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#010101"></TextView>
+
+        <Button
+                android:id="@+id/button1"
+                android:text="@string/hello"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"></Button>
+    </LinearLayout>
+
+</LinearLayout>

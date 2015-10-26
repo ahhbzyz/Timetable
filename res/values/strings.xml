@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Timetable</string>
+    <string name="app_name_cn">Timetable</string>
+    <string name="exit">退出</string>
+    <string name="about">关于</string>
+    <string name="aboutcontent">Timetables for XJTLU</string>
+    <string name="aboutweb">Beta 1.0</string>
+    <string name="yes">确定</string>
+    <string name="hello">Hello World, MainActivity!</string>
+
+</resources>

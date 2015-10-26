@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/mainlayout"
+              android:background="#000000">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="6">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="7">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/xjtlu_head"
+                    android:scaleType="fitXY"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="#ecf0f1">
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="6"
+                android:background="#34495e"
+                android:orientation="horizontal"
+                android:id="@+id/relativeLayout">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="星期二"
+                    android:id="@+id/tvWeek"
+                    android:layout_centerInParent="true"
+                    android:typeface="monospace"
+                    android:textSize="40sp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ecf0f1"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp">
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        >
+
+                    <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="3"
+                            android:layout_marginLeft="20dp"
+                            >
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Lecture:"
+                                android:id="@+id/textView"
+                                android:textColor="#000000"
+                                android:layout_gravity="center_vertical"
+                                android:textSize="35sp"
+                                />
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2"
+                            >
+
+                        <com.xjtlu.timetable.ScrollingTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="CSE 201"
+                                android:id="@+id/tvName"
+                                android:layout_gravity="center"
+                                android:textColor="#000000"
+                                android:singleLine="true"
+                                android:ellipsize="marquee"
+                                android:focusableInTouchMode="true"
+                                android:scrollHorizontally="true"
+                                android:marqueeRepeatLimit="marquee_forever"
+                                android:textSize="35sp"
+                                android:layout_marginLeft="10dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:background="#e2e2e2">
+
+                    <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="3">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Time:"
+                                android:id="@+id/textView3"
+                                android:textColor="#000000"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp"
+                                android:textSize="35sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2"
+                            android:textAlignment="viewStart">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="09:00 - 11:00"
+                                android:id="@+id/tvTime"
+                                android:textColor="#000000"
+                                android:layout_gravity="center"
+                                android:textSize="35sp"
+                                android:layout_marginLeft="10dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        >
+
+                    <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="3">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Room:"
+                                android:id="@+id/textView4"
+                                android:textColor="#000000"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp"
+                                android:textSize="35sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="B2 A169"
+                                android:id="@+id/tvRoom"
+                                android:textColor="#000000"
+                                android:layout_gravity="center"
+                                android:textSize="35sp"
+                                android:layout_marginLeft="10dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusableInTouchMode="false"
+                        android:id="@+id/teacher"
+                        android:background="@drawable/teacher">
+
+                    <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="3">
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Lecturer:"
+                                android:id="@+id/textView5"
+                                android:textColor="#000000"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp"
+                                android:textSize="35sp"
+                                android:textIsSelectable="false"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2">
+
+                        <com.xjtlu.timetable.ScrollingTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Sun Y."
+                                android:id="@+id/tvLecturer"
+                                android:textColor="#000000"
+                                android:layout_gravity="center"
+                                android:singleLine="true"
+                                android:ellipsize="marquee"
+                                android:focusableInTouchMode="true"
+                                android:scrollHorizontally="true"
+                                android:marqueeRepeatLimit="marquee_forever"
+                                android:textSize="35sp"
+                                android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:measureWithLargestChild="false">
+
+                <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="4"
+                        >
+
+                    <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:id="@+id/imageView2"
+                            android:src="@drawable/edit"
+                            android:layout_alignParentTop="false"
+                            android:layout_alignParentLeft="false"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_centerVertical="true"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="备注："
+                            android:id="@+id/textView2"
+                            android:textColor="#000000"
+                            android:textSize="30sp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/imageView2"
+                            android:layout_centerInParent="true"/>
+
+                    <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="删除"
+                            android:id="@+id/delete"
+                            android:background="@drawable/button_delete"
+                            android:clickable="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="30dp"
+                            android:textSize="25sp"
+                            android:layout_centerInParent="true"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_marginTop="5dp">
+
+                    <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView3"
+                            android:src="@drawable/dash_line"
+                            android:layout_below="@+id/textView2"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginBottom="5dp"/>
+
+                    <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/extraInfo"
+                            android:background="@drawable/editview"
+                            android:textSize="35sp"
+                            android:cursorVisible="true"
+                            android:hint="添加备注"
+                            android:typeface="monospace"
+                            android:textColor="#727272"
+                            android:focusable="false"
+                            android:singleLine="false"
+                            android:gravity="top"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

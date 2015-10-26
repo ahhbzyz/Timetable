@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/mainlayout"
+              android:background="#000000">
+
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="6">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView"
+                android:src="@drawable/xjtlu_head"
+                android:scaleType="fitXY"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#ffffff">
+
+        <RelativeLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="6"
+                android:background="#34495e"
+                android:id="@+id/relativeLayout">
+
+            <TextView
+                    android:id="@+id/tvGrade"
+                    android:text="选择年级"
+                    android:layout_width="wrap_content"
+                    android:textSize="40sp"
+                    android:padding="3dip"
+                    android:textColor="#fff"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_alignParentEnd="false"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_centerInParent="true"
+                    android:typeface="monospace"
+                    android:gravity="center"
+                    android:textIsSelectable="false"></TextView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ffffff"
+                android:layout_weight="1"
+                android:layout_margin="40dp">
+
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1">
+
+                    <Button
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:text="大一"
+                            android:id="@+id/y1"
+                            android:textSize="40sp"
+                            android:background="@drawable/button_login"
+                            android:layout_alignParentLeft="false"
+                            android:layout_centerInParent="true"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1">
+
+                    <Button
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:text="大二"
+                            android:id="@+id/y2"
+                            android:textSize="40sp"
+                            android:background="@drawable/button_login"
+                            android:layout_alignParentRight="false"
+                            android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1">
+
+                <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1">
+
+                    <Button
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:text="大三"
+                            android:id="@+id/y3"
+                            android:textSize="40sp"
+                            android:background="@drawable/button_login"
+                            android:layout_alignParentTop="false"
+                            android:layout_alignParentLeft="false"
+                            android:layout_centerInParent="true"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1">
+
+                    <Button
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:text="大四"
+                            android:id="@+id/y4"
+                            android:textSize="40sp"
+                            android:background="@drawable/button_login"
+                            android:layout_alignParentTop="false"
+                            android:layout_alignParentRight="false"
+                            android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
